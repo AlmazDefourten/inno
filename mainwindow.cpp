@@ -1,8 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
-
-
+#include <QtWebEngine/qtwebengineglobal.h>
+#include <QWebEngineView>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -17,7 +16,11 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_calendarWidget_activated(const QDate &date)
+void MainWindow::on_pushButton_clicked()
 {
+
+
+    ui->engine->load(QUrl("https://m.vk.com/innopolis"));
+    ui->engine->show();
 
 }
