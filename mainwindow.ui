@@ -46,19 +46,6 @@
      <string>GUIDE</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>0</y>
-      <width>81</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
    <widget class="QWebEngineView" name="engine" native="true">
     <property name="geometry">
      <rect>
@@ -93,6 +80,38 @@
       <width>304</width>
       <height>218</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>552</x>
+      <y>437</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ACTION</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>GO!</string>
     </property>
    </widget>
   </widget>
