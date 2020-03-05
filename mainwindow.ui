@@ -130,6 +130,16 @@
      <string>[TAXI]</string>
     </property>
    </widget>
+   <widget class="QWebEngineView" name="enginetwo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>170</y>
+      <width>331</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
