@@ -13,3 +13,5 @@ Widget::~Widget()
     delete ui;
 }
  
+//push
+  ui->lineedit->text();
