@@ -1,5 +1,4 @@
 #include "anotherwindow.h"
-#include "ui_anotherwindow.h"
 #include "mainwindow.h"
 
 AnotherWindow::AnotherWindow(QWidget *parent) :
