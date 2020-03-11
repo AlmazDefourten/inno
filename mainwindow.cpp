@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "anotherwindow.h"
+#include "university.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -32,4 +32,13 @@ void MainWindow::on_pushButton_clicked()
 }
 
 
-ф
+
+void MainWindow::on_pushButton_5_clicked()
+{
+    university window;
+    MainWindow mainwin;
+    window.setModal(true);
+    window.exec();
+  
+
+}
