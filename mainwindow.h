@@ -2,8 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "anotherwindow.h"
 
+#include <QtWebEngine/qtwebengineglobal.h>
+#include <QWebEngineView>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -24,6 +25,5 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    AnotherWindow *sWindow;
 };
 #endif // MAINWINDOW_H
