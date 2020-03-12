@@ -1,6 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include "university.h"
 #include <QMainWindow>
 
 #include <QtWebEngine/qtwebengineglobal.h>
@@ -20,10 +20,11 @@ public:
 
 private slots:
     void on_pushButton_clicked();
-
+    void on_pushButton_5_clicked();
 
 
 private:
     Ui::MainWindow *ui;
+    university *window;
 };
 #endif // MAINWINDOW_H
