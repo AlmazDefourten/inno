@@ -60,7 +60,7 @@
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>517</y>
+      <y>510</y>
       <width>221</width>
       <height>61</height>
      </rect>
@@ -95,7 +95,7 @@
      <string notr="true">font: 20pt &quot;Candara Light&quot;;</string>
     </property>
     <property name="text">
-     <string>EVENT</string>
+     <string>EVENTS</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -127,18 +127,76 @@
      <string notr="true">font: 18pt &quot;Candara Light&quot;;</string>
     </property>
     <property name="text">
-     <string>[TAXI]</string>
+     <string>[TAXI] on home</string>
     </property>
    </widget>
    <widget class="QWebEngineView" name="enginetwo" native="true">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>170</y>
+      <x>900</x>
+      <y>340</y>
       <width>331</width>
       <height>251</height>
      </rect>
     </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>180</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>University</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>260</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>School</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>510</y>
+      <width>95</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>To home</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>To Job</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
