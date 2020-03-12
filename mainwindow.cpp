@@ -35,6 +35,7 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_5_clicked()
 {
+    hide();
     window = new university(this);
     window->show();
   
