@@ -19,6 +19,14 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::EngineShow()
+{
+
+    ui->engine->load(QUrl("https://m.vk.com/innopolis"));
+    ui->engine->show();
+    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/"));
+        ui->enginetwo->show();
+}
 
 void MainWindow::on_pushButton_clicked()
 {
