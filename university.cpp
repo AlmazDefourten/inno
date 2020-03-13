@@ -19,3 +19,8 @@ void university::on_pushButton_clicked()
     ui->unEngine->load(QUrl("https://apply.innopolis.ru/university/general-information/"));
 
 }
+void university::unEngineShow()
+{
+
+    ui->unEngine->load(QUrl("https://apply.innopolis.ru/university/general-information/"));
+}
