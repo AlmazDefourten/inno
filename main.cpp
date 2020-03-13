@@ -1,6 +1,4 @@
 #include "mainwindow.h"
-#include "univers.h"
-#include "ui_Univers.h"
 #include <QtWebEngineWidgets>
 #include <QtWebEngine/qtwebengineglobal.h>
 #include <QApplication>
@@ -14,7 +12,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);  
         MainWindow w;
         w.show();
-    
+        w.EngineShow();
         return a.exec();
     }
     
