@@ -35,17 +35,14 @@ void MainWindow::on_pushButton_clicked()
     ui->engine->show();
     ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/"));
         ui->enginetwo->show();
-
-
 }
-
 
 
 void MainWindow::on_pushButton_5_clicked()
 {
-    hide();
     window = new university(this);
     window->show();
+    window->unEngineShow();
   
 
 }
