@@ -22,9 +22,9 @@ MainWindow::~MainWindow()
 void MainWindow::EngineShow()
 {
 
-    ui->engine->load(QUrl("https://m.vk.com/innopolis"));
+    ui->engine->load(QUrl("https://m.vk.com/innopolis")); // левй бокс 
     ui->engine->show();
-    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/"));
+    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/")); // правый бокс
         ui->enginetwo->show();
 }
 
