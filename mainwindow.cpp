@@ -22,9 +22,9 @@ MainWindow::~MainWindow()
 void MainWindow::EngineShow()
 {
 
-    ui->engine->load(QUrl("https://m.vk.com/innopolis")); // левй бокс 
+    ui->engine->load(QUrl("https://m.vk.com/innopolis"));
     ui->engine->show();
-    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/")); // правый бокс
+    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/"));
         ui->enginetwo->show();
 }
 
@@ -43,6 +43,5 @@ void MainWindow::on_pushButton_5_clicked()
     window = new university(this);
     window->show();
     window->unEngineShow();
-  
-
+centralWidget()->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 }
