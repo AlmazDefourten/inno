@@ -14,13 +14,17 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void EngineShow();
+
 
 private slots:
     void on_pushButton_clicked();
     void on_pushButton_5_clicked();
+
 
 
 private:
