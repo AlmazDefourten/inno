@@ -14,82 +14,108 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>-20</y>
-      <width>571</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 72pt &quot;Candara Light&quot;;</string>
-    </property>
-    <property name="text">
-     <string>INNOPOLIS</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>30</y>
-      <width>251</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 48pt &quot;Candara Light&quot;;</string>
-    </property>
-    <property name="text">
-     <string>GUIDE</string>
-    </property>
-   </widget>
    <widget class="QWebEngineView" name="engine" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>100</y>
+      <x>11</x>
+      <y>101</y>
       <width>511</width>
-      <height>501</height>
+      <height>510</height>
      </rect>
     </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>511</width>
+      <height>510</height>
+     </size>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>510</y>
-      <width>221</width>
-      <height>61</height>
+      <x>529</x>
+      <y>109</y>
+      <width>201</width>
+      <height>91</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>University</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>532</x>
+      <y>485</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Job </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>529</x>
+      <y>206</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Candara Light&quot;;</string>
     </property>
     <property name="text">
-     <string>INNOGO</string>
-    </property>
-   </widget>
-   <widget class="QCalendarWidget" name="calendarWidget">
-    <property name="geometry">
-     <rect>
-      <x>910</x>
-      <y>110</y>
-      <width>304</width>
-      <height>218</height>
-     </rect>
+     <string>School</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>552</x>
-      <y>437</y>
-      <width>221</width>
-      <height>61</height>
+      <x>530</x>
+      <y>300</y>
+      <width>201</width>
+      <height>81</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Candara Light&quot;;</string>
@@ -101,11 +127,17 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>60</y>
-      <width>81</width>
-      <height>41</height>
+      <x>11</x>
+      <y>-19</y>
+      <width>93</width>
+      <height>38</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 14pt &quot;Candara Light&quot;;</string>
@@ -114,89 +146,147 @@
      <string>GO!</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>100</y>
-      <width>201</width>
-      <height>61</height>
+      <x>940</x>
+      <y>-19</y>
+      <width>221</width>
+      <height>98</height>
      </rect>
     </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Candara Light&quot;;</string>
+     <string notr="true">font: 48pt &quot;Candara Light&quot;;</string>
     </property>
     <property name="text">
-     <string>Job </string>
+     <string>GUIDE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>357</x>
+      <y>-19</y>
+      <width>577</width>
+      <height>147</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 72pt &quot;Candara Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>INNOPOLIS</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>911</x>
+      <y>116</y>
+      <width>304</width>
+      <height>218</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>200</horstretch>
+      <verstretch>200</verstretch>
+     </sizepolicy>
     </property>
    </widget>
    <widget class="QWebEngineView" name="enginetwo" native="true">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>340</y>
-      <width>331</width>
-      <height>251</height>
+      <x>911</x>
+      <y>355</y>
+      <width>200</width>
+      <height>200</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>200</horstretch>
+      <verstretch>200</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>180</y>
+      <x>529</x>
+      <y>390</y>
       <width>201</width>
-      <height>61</height>
+      <height>81</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">font: 18pt &quot;Candara Light&quot;;</string>
-    </property>
-    <property name="text">
-     <string>University</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_8">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>260</y>
-      <width>201</width>
-      <height>61</height>
-     </rect>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Candara Light&quot;;</string>
     </property>
     <property name="text">
-     <string>School</string>
+     <string>INNOGO</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>510</y>
-      <width>131</width>
-      <height>64</height>
+      <x>730</x>
+      <y>390</y>
+      <width>93</width>
+      <height>28</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QPushButton" name="pushButton_6">
-       <property name="text">
-        <string>To home</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_7">
-       <property name="text">
-        <string>To Job</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>To home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>430</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>To Job</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
