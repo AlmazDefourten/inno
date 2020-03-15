@@ -1,17 +1,12 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
-
+#include "school.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-
     ui->setupUi(this);
-
-
-
 }
 
 MainWindow::~MainWindow()
@@ -37,11 +32,16 @@ void MainWindow::on_pushButton_clicked()
         ui->enginetwo->show();
 }
 
-
 void MainWindow::on_pushButton_5_clicked()
 {
     window = new university(this);
     window->show();
     window->unEngineShow();
-centralWidget()->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+}
+
+void MainWindow::on_pushButton_8_clicked()
+{
+    scWindow = new school(this);
+    scWindow->show();
+    scWindow->scEngineShow();
 }
