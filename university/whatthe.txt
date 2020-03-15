@@ -1,0 +1,3 @@
+This is a files of unviersity window. Have .cpp file - main c++ file, have funcs and slots.;
+.h file - headr of cpp file and window;
+.ui file - form of window
