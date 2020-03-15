@@ -1,0 +1,4 @@
+This is files of main window.
+Have: mainwindow.cpp - main cpp file;
+mainwindow.h - main header and header of main window;
+mainwindow.ui - form of main window.
