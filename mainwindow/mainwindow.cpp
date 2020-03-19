@@ -14,7 +14,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::EngineShow()
+void MainWindow::EngineShow() // функция загрузки страниц в главном окне
 {
 
     ui->engine->load(QUrl("https://m.vk.com/innopolis"));
@@ -26,10 +26,7 @@ void MainWindow::EngineShow()
 void MainWindow::on_pushButton_clicked()
 {
 
-    ui->engine->load(QUrl("https://m.vk.com/innopolis"));
-    ui->engine->show();
-    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/"));
-        ui->enginetwo->show();
+    EngineShow();
 }
 
 void MainWindow::on_pushButton_5_clicked()
