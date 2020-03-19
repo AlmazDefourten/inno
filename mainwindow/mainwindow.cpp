@@ -14,7 +14,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::EngineShow() // функция загрузки страниц в главном окне
+void MainWindow::EngineShow()
 {
 
     ui->engine->load(QUrl("https://m.vk.com/innopolis"));
@@ -23,22 +23,23 @@ void MainWindow::EngineShow() // функция загрузки страниц 
         ui->enginetwo->show();
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_reloadButton_clicked()
 {
 
     EngineShow();
 }
 
-void MainWindow::on_pushButton_5_clicked()
+void MainWindow::on_univButton_clicked()
 {
     window = new university(this);
     window->show();
     window->unEngineShow();
 }
 
-void MainWindow::on_pushButton_8_clicked()
+void MainWindow::on_schoolButton_clicked()
 {
     scWindow = new school(this);
     scWindow->show();
     scWindow->scEngineShow();
 }
+
