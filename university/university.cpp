@@ -15,9 +15,9 @@ university::~university()
     delete ui;
 }
 
-void university::on_pushButton_clicked()
+void university::on_unReload_clicked()
 {
-    ui->unEngine->load(QUrl("https://apply.innopolis.ru/university/general-information/"));
+    unEngineShow();
 
 }
 void university::unEngineShow()
