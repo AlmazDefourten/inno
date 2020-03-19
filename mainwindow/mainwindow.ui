@@ -36,7 +36,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="univButton">
     <property name="geometry">
      <rect>
       <x>529</x>
@@ -80,7 +80,7 @@
      <string>Job </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="schoolButton">
     <property name="geometry">
      <rect>
       <x>529</x>
@@ -124,11 +124,11 @@
      <string>EVENTS</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="reloadButton">
     <property name="geometry">
      <rect>
-      <x>11</x>
-      <y>-19</y>
+      <x>10</x>
+      <y>60</y>
       <width>93</width>
       <height>38</height>
      </rect>
@@ -143,7 +143,7 @@
      <string notr="true">font: 14pt &quot;Candara Light&quot;;</string>
     </property>
     <property name="text">
-     <string>GO!</string>
+     <string>Reload</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
