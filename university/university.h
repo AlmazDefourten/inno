@@ -17,7 +17,7 @@ public:
     ~university();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_unReload_clicked();
 
 private:
     Ui::university *ui;
