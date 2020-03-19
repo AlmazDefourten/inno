@@ -23,7 +23,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="unReload">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -32,8 +32,11 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Candara Light&quot;;</string>
+   </property>
    <property name="text">
-    <string>GO</string>
+    <string>Reload</string>
    </property>
   </widget>
  </widget>
