@@ -21,16 +21,18 @@ public:
     void EngineShow();
     void scEngineShow();
 
-      
+
 private slots:
-    void on_pushButton_clicked();
-    void on_pushButton_5_clicked();
-    void on_pushButton_8_clicked();
+    void on_reloadButton_clicked();
+    void on_univButton_clicked();
+    void on_schoolButton_clicked();
+
+
 
 private:
     Ui::MainWindow *ui;
-    university *window; // окно университета
-    school *scWindow; //окно школы
+    university *window;
+    school *scWindow;
 
 };
 #endif // MAINWINDOW_H
