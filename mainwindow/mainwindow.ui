@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>InnopolisGuide</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWebEngineView" name="engine" native="true">
@@ -35,6 +35,28 @@
       <height>510</height>
      </size>
     </property>
+    <widget class="QWebEngineView" name="engine_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>511</width>
+       <height>510</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>511</width>
+       <height>510</height>
+      </size>
+     </property>
+    </widget>
    </widget>
    <widget class="QPushButton" name="univButton">
     <property name="geometry">
@@ -102,7 +124,7 @@
      <string>School</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="evenButton">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -211,8 +233,8 @@
      <rect>
       <x>911</x>
       <y>355</y>
-      <width>200</width>
-      <height>200</height>
+      <width>301</width>
+      <height>231</height>
      </rect>
     </property>
     <property name="sizePolicy">
