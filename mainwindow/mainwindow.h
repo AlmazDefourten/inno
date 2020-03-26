@@ -43,7 +43,7 @@ private:
 
     university *window; // окно университета
     school *scWindow; // окно школы
-    events *evWindow;
-    innogo *goWindow;
+    events *evWindow; // окно эвентов
+    innogo *goWindow; // окно innogo
 };
 #endif // MAINWINDOW_H
