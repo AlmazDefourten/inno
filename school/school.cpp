@@ -16,10 +16,10 @@ school::~school()
 
 void school::on_pushButton_clicked()
 {
-    ui->scEngine->load(QUrl("http://www.innopolis-school.ru/"));
+    scEngineShow();
 }
 
 void school::scEngineShow()
 {
-    ui->scEngine->load(QUrl("http://www.innopolis-school.ru/"));
+    ui->scEngine->load(QUrl("http://www.innopolis-school.ru/")); // функция загрузки веб-страницы в виджет
 }
