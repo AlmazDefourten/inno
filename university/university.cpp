@@ -20,7 +20,7 @@ void university::on_unReload_clicked()
     unEngineShow();
 
 }
-void university::unEngineShow()
+void university::unEngineShow() // функция загрузки браузера в окне университета
 {
 
     ui->unEngine->load(QUrl("https://apply.innopolis.ru/university/general-information/"));
