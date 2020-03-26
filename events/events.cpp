@@ -18,3 +18,10 @@ void events::on_pushButton_clicked()
 {
     ui->evEngine->load(QUrl("http://innopolis.ru/media/events/"));
 }
+
+
+void events::evEngineShow()
+{
+    ui->evEngine->load(QUrl("http://innopolis.ru/media/events/"));
+}
+
