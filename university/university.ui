@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>InnoUnviersity</string>
   </property>
   <widget class="QWebEngineView" name="unEngine" native="true">
    <property name="geometry">
