@@ -12,7 +12,8 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);  
         MainWindow w;
         w.show();
-        w.EngineShow();
+        w.EngineShow(); // показ содержимого страниц в виджеты
+
         return a.exec();
     }
     
