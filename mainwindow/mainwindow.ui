@@ -32,7 +32,7 @@
     <property name="minimumSize">
      <size>
       <width>511</width>
-      <height>510</height>
+      <height>511</height>
      </size>
     </property>
     <widget class="QWebEngineView" name="engine_2" native="true">
