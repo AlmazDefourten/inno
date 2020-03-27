@@ -15,35 +15,25 @@ QT_END_NAMESPACE
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
-
-
-
-
-
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void EngineShow();
     void scEngineShow();
 
-
 private slots:
     void on_reloadButton_clicked();
     void on_univButton_clicked();
     void on_schoolButton_clicked();
-
-
-
     void on_evenButton_clicked();
-
     void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;
 
-    university *window; // окно университета
-    school *scWindow; // окно школы
-    events *evWindow; // окно эвентов
-    innogo *goWindow; // окно innogo
+    university *window;     // окно университета
+    school *scWindow;       // окно школы
+    events *evWindow;       // окно событий
+    innogo *goWindow;       // окно работы
 };
 #endif // MAINWINDOW_H
