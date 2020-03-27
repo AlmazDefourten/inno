@@ -14,9 +14,9 @@ events::~events()
     delete ui;
 }
 
-void events::on_pushButton_clicked()
+void events::on_evReload_clicked()
 {
-    ui->evEngine->load(QUrl("http://innopolis.ru/media/events/"));
+    ui->evEngine->load(QUrl("http://innopolis.ru/media/events/"));      
 }
 
 
