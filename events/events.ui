@@ -35,7 +35,7 @@
     </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="evReload">
    <property name="geometry">
     <rect>
      <x>610</x>
