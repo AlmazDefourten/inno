@@ -14,10 +14,10 @@ class events : public QDialog
 public:
     explicit events(QWidget *parent = nullptr);
     ~events();
-    void evEngineShow(); // загрузка содержимого вебвиджета
+    void evEngineShow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_evReload_clicked();
 
 private:
     Ui::events *ui;
