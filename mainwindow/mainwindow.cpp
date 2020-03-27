@@ -15,46 +15,46 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::EngineShow() // функция загрузки содержимого веб-страниц
+void MainWindow::EngineShow()                                   // функция загрузки содержимого веб-страниц
 {
 
-    ui->engine->load(QUrl("https://m.vk.com/innopolis"));
-    ui->engine->show();
-    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/"));
-        ui->enginetwo->show();
+    ui->engine->load(QUrl("https://m.vk.com/innopolis"));                // загрузка страницы группы ВК в виджет
+    ui->engine->show();                                                  // показ страницы
+    ui->enginetwo->load(QUrl("http://welcome.innopolis.ru/vacancies/")); // загрузка страницы работы
+        ui->enginetwo->show();                                           // показ страницы работы
 }
 
-void MainWindow::on_reloadButton_clicked() // при нажатии на кнопку перезагрузки
+void MainWindow::on_reloadButton_clicked()                      // при нажатии на кнопку перезагрузки
 {
 
     EngineShow();
 }
 
-void MainWindow::on_univButton_clicked() // кнопка Unviersity нажатие, открытие окна университета
+void MainWindow::on_univButton_clicked()                        // кнопка Unviersity нажатие, открытие окна университета
 {
-    window = new university(this);
-    window->show();
-    window->unEngineShow();
+    window = new university(this);              // объявление объекта window с типом university
+    window->show();                             // показ объекта
+    window->unEngineShow();                     // прогрузка Web содержимого
 }
 
-void MainWindow::on_schoolButton_clicked() // кнопка School нажатие, открытие окна школы
+void MainWindow::on_schoolButton_clicked()                      // кнопка School нажатие, открытие окна школы
 {
-    scWindow = new school(this);
-    scWindow->show();
-    scWindow->scEngineShow();
+    scWindow = new school(this);                // объявление объекта scWindow с типом school
+    scWindow->show();                           // показ объекта
+    scWindow->scEngineShow();                   // прогрузка Web содержимого
 }
 
 
-void MainWindow::on_evenButton_clicked()
+void MainWindow::on_evenButton_clicked()                        // кнопка Events нажатие, открытие окна событий
 {
-    evWindow = new events(this);
-    evWindow->show();
-    evWindow->evEngineShow();
+    evWindow = new events(this);                // объявление объекта evWindow с типом events
+    evWindow->show();                           // показ объекта
+    evWindow->evEngineShow();                   // прогрузка Web содержимого
 }
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_pushButton_2_clicked()                      // кнопка InnoGo нажатие, открытие окна такси
 {
-    goWindow = new innogo(this);
-    goWindow->show();
-    goWindow->goEngineShow();
-}
+    goWindow = new innogo(this);                // объявление объекта goWindow с типом innogo
+    goWindow->show();                           // показ объекта
+    goWindow->goEngineShow();                   // прогрузка Web содержимого
+}   
