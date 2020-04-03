@@ -1,7 +1,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "school.h"
+#include "QDebug"
 
+QString home;
+QString job = "Технопарк";
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -57,4 +60,13 @@ void MainWindow::on_pushButton_2_clicked()                      // кнопка 
     goWindow = new innogo(this);                // объявление объекта goWindow с типом innogo
     goWindow->show();                           // показ объекта
     goWindow->goEngineShow();                   // прогрузка Web содержимого
-}   
+}
+
+void MainWindow::on_pushButton_6_clicked()
+{
+    if (home == 0)
+    {
+        seWindow = new Settings(this);
+        seWindow->show();
+    }
+}
